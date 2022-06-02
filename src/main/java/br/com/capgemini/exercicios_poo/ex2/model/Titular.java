@@ -2,7 +2,6 @@ package br.com.capgemini.exercicios_poo.ex2.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.ToString;
 
 @AllArgsConstructor
 @Getter

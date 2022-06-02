@@ -1,10 +1,7 @@
 package br.com.capgemini.exercicios_poo.ex2.model;
 
-import br.com.capgemini.exercicios_poo.ex2.exceptions.SaldoInsuficienteException;
-import br.com.capgemini.exercicios_poo.ex2.exceptions.ValorNegativoException;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.ToString;
 
 import java.math.BigDecimal;
 
