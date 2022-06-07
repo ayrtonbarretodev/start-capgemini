@@ -1,5 +1,7 @@
 package br.com.capgemini.exercicios_poo.ex6;
 
+import br.com.capgemini.exercicios_poo.ex6.modelo.Invoice;
+
 import java.math.BigDecimal;
 
 public class TesteInvoice {

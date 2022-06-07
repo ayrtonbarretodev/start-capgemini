@@ -1,4 +1,4 @@
-package br.com.capgemini.exercicios_poo.ex6;
+package br.com.capgemini.exercicios_poo.ex6.modelo;
 
 import lombok.Getter;
 import lombok.Setter;
