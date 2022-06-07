@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
 
 public class CadastroGUI extends JFrame {
     private JTabbedPane tabbedPane1;
@@ -18,18 +19,19 @@ public class CadastroGUI extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setContentPane(panel1);
         this.pack();
-        logarButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                String login = "Ayrton";
-                String senha = "123456";
+        logarButton.addActionListener(e -> {
+            String login = "Ayrton";
+            String senha = "123456";
 
-                if (textField1.getText().equals(login.trim()) && (new String(passwordField1.getPassword()).equals(senha))) {
-                    JOptionPane.showMessageDialog(null, "Logado com Sucesso");
-                } else {
-                    JOptionPane.showMessageDialog(null, "Login ou Senha Incorretos");
-                }
+
+            if (textField1.getText().equals(login.trim()) && (new String(passwordField1.getPassword()).equals(senha))) {
+                JOptionPane.showMessageDialog(null, "Logado com Sucesso");
+            } else {
+                JOptionPane.showMessageDialog(null, "Login ou Senha Incorretos");
             }
+
+        });
+        esqueciMinhaSenhaButton.addMouseListener(new MouseAdapter() {
         });
     }
 
