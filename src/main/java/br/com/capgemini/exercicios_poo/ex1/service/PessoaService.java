@@ -5,7 +5,7 @@ import br.com.capgemini.exercicios_poo.ex1.model.Pessoa;
 import java.time.LocalDate;
 import java.time.Period;
 
-public class Calculadora {
+public class PessoaService {
 
     public void calcularIdade(Pessoa pessoa){
         LocalDate anoAtual = LocalDate.now();
