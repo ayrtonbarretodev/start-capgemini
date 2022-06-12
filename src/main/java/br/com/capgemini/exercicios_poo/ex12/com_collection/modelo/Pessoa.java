@@ -1,4 +1,4 @@
-package br.com.capgemini.exercicios_poo.ex12;
+package br.com.capgemini.exercicios_poo.ex12.com_collection.modelo;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

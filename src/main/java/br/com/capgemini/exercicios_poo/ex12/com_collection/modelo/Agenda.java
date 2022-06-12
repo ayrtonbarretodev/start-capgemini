@@ -1,4 +1,4 @@
-package br.com.capgemini.exercicios_poo.ex12;
+package br.com.capgemini.exercicios_poo.ex12.com_collection.modelo;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -11,7 +11,7 @@ import java.util.List;
 @Setter
 @ToString
 public class Agenda {
-    List<Pessoa> pessoas = new ArrayList<>();
+    private List<Pessoa> pessoas = new ArrayList<>();
 
     public void adicionarPessoa(Pessoa p){
         this.pessoas.add(p);

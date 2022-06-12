@@ -1,4 +1,7 @@
-package br.com.capgemini.exercicios_poo.ex12;
+package br.com.capgemini.exercicios_poo.ex12.com_collection;
+
+import br.com.capgemini.exercicios_poo.ex12.com_collection.modelo.Agenda;
+import br.com.capgemini.exercicios_poo.ex12.com_collection.modelo.Pessoa;
 
 public class TesteAgenda {
     public static void main(String[] args) {
